@@ -1,0 +1,68 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="module" src="src/index.js"></script>
+</head>
+<body>
+  <div id="banner" class="banner">
+    <a class="active" id="questions" href="#">Questions</a>
+    <a id="tags"href="#">Tags</a>
+    <p class="title">Fake Stack Overflow</p>
+    <input id="enter" type="text" placeholder="Search ..." class="searchbar">
+  </div>
+
+  <div id="main" class="main">
+  
+  <table id="display">
+    
+  </table>
+
+  <div id="askquestions" class="askquestions">
+    <div id="error">
+    </div>
+    <form id="form">
+      <h2>Question Title</h2>
+      <p>Title should not be more than 100 characters</p>
+      <textarea type="text" name="qTitle" id="q1" rows="3"></textarea>
+
+      <h2>Question Text</h2>
+      <p>Add details</p>
+      <textarea type="text" name="qText" id="q2" rows="5"></textarea>
+
+      <h2>Tags</h2>
+      <p>Add Keywords separated by whitespace</p>
+      <textarea type="text"  name="qTag" id="q3" rows="3"></textarea>
+
+      <h2>Username</h2>
+      <p>Should not be more than 15 characters</p>
+      <textarea type="text" name="qUser" id="q4" rows="1"></textarea>
+
+      <button type="submit" class="ask1" id="ask1">Post Question</button>
+    </form>
+  </div>
+  <div id="postanswer" class="postanswer">
+    <div id="erroranswer">
+    </div>
+    <form id="form2">
+      <h2>Answer Text</h2>
+      <textarea type="text" name="aText" id="a1" rows="8"></textarea>
+      
+      <h2>Username</h2>
+      <p>Should not be more than 15 characters</p>
+      <textarea type="text" name="aUser" id="a2" rows="1"></textarea>
+  
+      <button type="submit" class="ans1" id="ans1">Post Answer</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
