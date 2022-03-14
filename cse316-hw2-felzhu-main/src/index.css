@@ -1,0 +1,282 @@
+/* Add CSS */
+*{
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y:auto;
+}
+.main{
+    height:90%;  
+}
+
+.banner{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #d0cccc;
+    font-size: 20px;
+    vertical-align: middle;
+    border-color: gray;
+    border-radius: 1px;
+}
+
+.banner a {
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 20px;
+    width:8%;
+    color:black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.banner a:hover:not(.active){
+    background-color: #9c9c9c;
+}
+
+
+.title{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 1000;
+    margin:0;
+    padding: 40px 20px;
+}
+
+.searchbar {
+    float: right;
+    color: black;
+    font-size: 20px;
+    margin: 40px 20px;
+    width:20%;
+    padding:0;
+    
+}
+
+.active{
+    background-color: #0281E8;
+}
+
+/**/
+table{
+    width: 100%;
+    text-align: left;
+    
+}
+
+.h th{
+    font-size: 20px;
+    padding: 2px 5px;
+    font-weight: bold;
+    margin: 0 0 100px 0;
+    text-align: center;
+}
+
+.h .h3{
+    text-align: right;
+    padding:0 2% 0 0;
+}
+
+
+.ask{
+    background-color: #165A92;
+    color:white;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.h1, .h3{
+    width:20%;
+}
+
+
+.e1 ul li, .e2 ul li, .e3 ul li, .e4 ul li{
+    display:block;
+}
+
+.e1 ul li{
+    text-align: right;
+}
+
+.e2 ul li{
+    text-align: left;
+}
+
+.e2 ul{
+    padding: 0;
+}
+
+.e1{
+    width:2%;
+}
+
+.e4{
+    text-align: right;
+}
+
+
+.e4 ul li {
+    padding:0 5% 0 0;
+}
+
+.tags span{
+    padding: 1px 10px;
+    border-radius: 12px;
+    background-color: gray;
+    color:white;
+    margin: 0 4px 0 0px;
+}
+
+.tags{
+    margin: 10px 2px 0 2px;
+}
+
+.link{
+    color:#0b7fd7;
+}
+
+tr td{
+    border-bottom: 2px dotted black;
+}
+
+ul{
+    margin: 25px 0 25px 0;
+}
+
+.by{
+    color:#396395;
+    font-weight: bold;
+}
+.on{
+    color:#57853e;
+    font-weight: bold;
+}
+.at{
+    color:#3a8082;
+    font-weight: bold;
+}
+
+/**/
+
+textarea{
+    resize: none;
+    width: 80%;
+}
+
+form{
+    padding:0 10%;
+    margin:0;
+    
+}
+
+button{
+    display: block;
+}
+
+.askquestions form p {
+    margin:8px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.askquestions form h2 {
+    margin:20px 0 5px 0;
+    font-weight: bold;
+}
+
+.ask1{
+    background-color: #165A92;
+    color:white;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#error p, #erroranswer p{
+    margin:0;
+    padding: 0 0 0 20%;
+    text-align: left;
+    color:red;
+}
+
+
+#heading{
+    font-size: 20px;
+    padding: 2px 30px;
+    font-weight: bold;
+    margin: 0 0 100px 0;
+    text-align: left;
+}
+
+.aviews{
+    padding: 0px 30px;
+    
+}
+
+.containA{
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.Aask{
+    background-color: #165A92;
+    color:white;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.ans1{
+    background-color: #165A92;
+    color:white;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.e{
+    border: 10px black solid;
+    padding: 10px;
+}
+
+.area td{
+    text-align: center;
+    padding: 2%;
+    margin:10px;
+    border-bottom: none;
+}
+
+
+.containers{
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+    border:2px solid black;
+}
+.containers a, .containers span{
+    display:block;
+}
+
+.containers a{
+    color:#0b7fd7;
+}
+
+.diff{
+    border-bottom: none;
+}
