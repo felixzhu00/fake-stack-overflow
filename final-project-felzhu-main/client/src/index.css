@@ -1,0 +1,473 @@
+/* Add CSS */
+*{
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y:auto;
+}
+.main{
+    height:90%;  
+}
+
+.banner{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #d0cccc;
+    font-size: 20px;
+    vertical-align: middle;
+    border-color: gray;
+    border-radius: 1px;
+}
+
+.banner a {
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 20px;
+    
+    color:black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.banner #right {
+    float: right;
+}
+
+.banner #right-button {
+    float: right;
+    margin: 40px 0px;
+}
+
+.banner a:hover:not(.active){
+    background-color: #9c9c9c;
+}
+
+
+.title{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 1000;
+    margin:0;
+    padding: 40px 20px;
+}
+
+.searchbar {
+    float: right;
+    color: black;
+    font-size: 20px;
+    margin: 40px 20px;
+    width:15%;
+    padding:0;
+    
+}
+
+.active{
+    background-color: #0281E8;
+}
+
+/**/
+table{
+    width: 100%;
+    text-align: left;
+    
+}
+
+.h th{
+    font-size: 20px;
+    padding: 2px 5px;
+    font-weight: bold;
+    margin: 0 0 100px 0;
+    text-align: center;
+}
+
+.h #h3{
+    text-align: right;
+    padding:0 2% 0 0;
+}
+
+
+.ask{
+    background-color: #165A92;
+    color:white;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.h1, .h3{
+    width:20%;
+}
+
+.h .h1,.h #h3{
+    width:15%;
+}
+
+
+.e1 ul li, .e2 ul li, .e3 ul li, .e4 ul li{
+    display:block;
+}
+
+.e1 ul li{
+    text-align: right;
+}
+
+.e2 ul li{
+    text-align: left;
+}
+
+.e2 ul{
+    padding: 0;
+}
+
+.e1{
+    width:2%;
+}
+
+.e4{
+    text-align: right;
+}
+
+
+.e4 ul li {
+    padding:0 5% 0 0;
+}
+
+.tags span{
+    padding: 1px 10px;
+    border-radius: 12px;
+    background-color: gray;
+    color:white;
+    margin: 0 4px 0 0px;
+}
+
+.tags{
+    margin: 10px 2px 0 2px;
+}
+
+.link{
+    color:#0b7fd7;
+    font-size: 23px;
+}
+
+.link:hover{
+    color:#093f68;
+}
+
+
+tr td{
+    border-bottom: 2px dotted black;
+}
+
+ul{
+    margin: 25px 0 25px 0;
+}
+
+.by{
+    color:#396395;
+    font-weight: bold;
+}
+.on{
+    color:#57853e;
+    font-weight: bold;
+}
+.at{
+    color:#3a8082;
+    font-weight: bold;
+}
+
+/**/
+
+textarea{
+    resize: none;
+    width: 80%;
+}
+
+form{
+    padding:0 10%;
+    margin:0;
+    
+}
+
+button{
+    display: block;
+}
+
+.askquestions form p {
+    margin:8px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.askquestions form h2 {
+    margin:20px 0 5px 0;
+    font-weight: bold;
+}
+
+.ask1{
+    background-color: #165A92;
+    color:white;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#error p, #erroranswer p{
+    margin:0;
+    padding: 0 0 0 20%;
+    text-align: left;
+    color:red;
+}
+
+
+#heading{
+    font-size: 20px;
+    padding: 2px 30px;
+    font-weight: bold;
+    margin: 0 0 100px 0;
+    text-align: left;
+}
+
+.aviews{
+    padding: 0px 30px;
+}
+
+.containA{
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.Aask{
+    background-color: #165A92;
+    color:white;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.ans1{
+    background-color: #165A92;
+    color:white;
+    padding: 20px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.subcom{
+    background-color: #165A92;
+    color:white;
+    padding: 10px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.e{
+    border: 10px black solid;
+    padding: 10px;
+}
+
+.area td{
+    text-align: center;
+    padding: 2%;
+    margin:10px;
+    border-bottom: none;
+}
+
+
+.containers{
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+    border:2px solid black;
+}
+.containers a, .containers span{
+    display:block;
+}
+
+.containers a{
+    color:#0b7fd7;
+}
+
+.diff{
+    border-bottom: none;
+}
+
+.hidden{
+    display:none
+}
+
+.promt{
+    width:50%;
+    margin: 100px auto 100px;
+    text-align: center;
+    padding: 100px 50px;
+    background-color: gainsboro;
+}
+
+.promt button{
+    margin: 20px auto 0;
+    padding: 10px 5px;
+}
+
+.promt h1{
+    font-size: 50px;
+}
+
+.left{
+    float:left;
+}
+
+#questions , #tags{
+    width:8%;
+}
+
+.up1:before {
+    content: "\25B2";
+    color:gray
+}
+.down1:before {
+    content: "\25BC";
+    color:gray
+}
+
+.up2:before {
+    content: "\25B2";
+    color:black
+}
+.down2:before {
+    content: "\25BC";
+    color:black
+}
+
+.summary{
+    font-style: italic;
+}
+
+#display tbody {
+    overflow-y:auto;
+    height:80%
+}
+
+.left-butt{
+    float:left;
+    margin: 0 0 0 10px;
+}
+
+.right-butt{
+    float:right;
+    margin: 0 10px 0 0;
+}
+
+.left-butt td , .no-border td, .quesbutton td{
+    border-bottom: none;
+}
+.right-butt td{
+    border-bottom: none;
+}
+
+.comment div {
+    border-top: dotted black 2px;
+    padding: 10px 0;
+}
+
+.comment .last{
+    border-bottom: dotted black 2px;
+}
+
+.comment{
+    margin:10px 10%;
+    border-collapse: collapse;
+}
+
+.comment div .user{
+    float:right
+
+}
+
+
+tr.right-butt, tr.right-butt td, tr.left-butt, tr.left-butt td, td.right-butt, td.left-butt, div.right-butt, div.left-butt{
+    border: none;
+}
+
+div #error{
+    border-top: none;
+}
+
+div.comment-form{
+    border-top: none;
+}
+
+.pro{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px auto;
+    padding: 20px 0;
+}
+
+hr.rounded {
+    border-top: 4px solid gainsboro;
+    border-radius: 5px;
+    margin:100px 0 0 0
+}
+
+div.side-bar, .profile{
+    display:inline-block;
+    vertical-align:top;
+    height:auto;
+    
+}
+
+div.side-bar{
+    width:10%;
+    background-color: #a6a6a6;
+    padding: 100px 0;
+    text-align: center;
+}
+.profile{
+    width: 90%;
+}
+
+.space a{
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 0 ;
+    color:black;
+    font-weight: bold;
+    vertical-align: middle;
+    width:100%
+}
+
+.space a:hover:not(.active){
+    background-color: #9c9c9c;
+}
+
+.pt{
+    display: block;
+}
+
+
+.hoverable{
+
+}
+
+.hoverable:hover:not(.active){
+    background-color: #c7c7c7;
+}
